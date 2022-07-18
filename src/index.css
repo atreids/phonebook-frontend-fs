@@ -1,0 +1,57 @@
+h2 {
+  color: green;
+  font-style: italic;
+}
+
+li {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 3px;
+  max-width: 200px;
+}
+
+button {
+  padding: 3px;
+  margin: 3px;
+  max-width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  background: darkgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: black;
+  background: green;
+  font-size: 20px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
